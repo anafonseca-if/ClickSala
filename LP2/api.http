@@ -1,0 +1,14 @@
+# Rest Client (VS Code Extension - HTTP Requests)
+@server=http://localhost:3000
+
+### Criar solicitação de sala
+
+POST {{server}}/solicitacoes
+Content-Type: application/json
+
+{
+  "sala": "Sala 101",
+  "data": "2026-05-01",
+  "hora": "14:00",
+  "finalidade": "Reunião de projeto"
+}
